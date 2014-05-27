@@ -1,0 +1,20 @@
+.col1 {
+  float: left;
+  width: 150px;
+  height: 65px;
+  display: inline-block;
+}
+
+.col2 {
+  float: none;
+  width: 150px;
+  height: 65px;
+  display: inline-block;
+}
+
+.col3 {
+  float: none;
+  width: 150px;
+  height: 65px;
+  display: inline-block;
+}

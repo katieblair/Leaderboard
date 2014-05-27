@@ -1,0 +1,34 @@
+<head>
+  <title>Leaderboard</title>
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+
+<h3>Leaderboard</h3>
+
+<div class="col1">
+  <hX>Teams By Rank</hX>
+  <ol>
+    <% @ranking.each do |rank| %>
+      <li><%= rank %></li>
+    <% end %>
+  </ol>
+</div>
+
+<div class="col2">
+  <hX>Wins</hX>
+  <ul style="list-style-type: none;">
+    <% @wins.each do |win| %>
+      <li><%= win %></li>
+    <% end %>
+  </ul>
+</div>
+
+<div class="col3">
+  <hX>Losses</hX>
+  <ul style="list-style-type: none;">
+    <% @losses.each do |loss| %>
+      <li><%= loss %></li>
+    <% end %>
+  </ul>
+</div>

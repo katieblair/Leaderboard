@@ -1,0 +1,18 @@
+<!-- #This page has a link to the leaderboard page -->
+<!--#It also has links to pages for the individual teams:-->
+  <!--Patriots, Broncos, Colts, and Steelers-->
+
+<h1>NFL Scores Master Page</h1>
+
+<h3><a href="<%= "/leaderboard" %>">Leaderboard</a></h3>
+
+<h3>Individual Team Records</h3>
+<ul>
+  <% @teams.each do |team| %>
+    <li>
+      <a href="<%= "/teams/#{team}" %>">
+        <%= team %>
+      </a>
+    </li>
+  <% end %>
+</ul>
