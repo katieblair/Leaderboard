@@ -1,3 +1,9 @@
+#Lines 173 and 174 are sort of a cheat, I know--they would not necessarily work for all cases if you added more data.
+#I was struggling with how to access and sort that data so used kind of a shortcut
+#So that I could display the right stats on the page.
+#Also I left room for the noncore part but did not finish it.
+#Hope that is not too much of a problem and the other code is okay!
+
 require 'sinatra'
 require 'csv'
 require 'shotgun'
